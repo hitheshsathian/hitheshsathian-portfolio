@@ -7,9 +7,11 @@ const skills = [
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "Python" },
+  { skill: "Java" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
+  { skill: "SQL" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
@@ -21,7 +23,7 @@ const AboutSection = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 bg-blue-700 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
@@ -30,34 +32,34 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Hithesh and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" driven"}</span> recent Computer Science Graduate
+              based in Monroe Township, NJ.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Rutgers University, New Brunswick in 2023
+              with a BS in Computer Science and am passionate about
+              software engineering and development.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
+              From activism, fitness, reading, and volunteering,
+              I am always looking for ways to be compassionate while keeping myself
               engaged and learning new things.
             </p>
             <br />
             <p>
               I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
+              <span className="font-bold text-blue-700">
+                never stop learning
               </span>{" "}
               and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
+              technology and a desire to find clever ways to do things differently. 
+              I am excited to see where my career will take me and am
               always open to new opportunities. 🙂
             </p>
           </div>
@@ -76,10 +78,10 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/hi.png"
               alt=""
-              width={325}
-              height={325}
+              width={243}
+              height={243}
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
             />
           </div>
