@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-blue-800">
               recent Computer Science Graduate{" "}
             </span>
-            based in Monroe Township, NJ. I'm eager to apply my knowledge and skills
+            based in Monroe Township, NJ. I&#39;m eager to apply my knowledge and skills
             to make technology more user-friendly and impactful.
           </p>
           <Link
