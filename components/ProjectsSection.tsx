@@ -13,6 +13,14 @@ const projects = [
     github: "https://github.com/hqasmei/thankful-thoughts",
     link: "https://thankfulthoughts.io/",
   },
+  {
+    name: "Whole$ale",
+    description:
+      "Webshop created using Angular, Node.js, and TypeScript.",
+    image: "/Whole$ale.png",
+    github: "https://github.com/hitheshsathian/WholeSale",
+    link: "https://thankfulthoughts.io/",
+  },
 ]
 
 const ProjectsSection = () => {
